@@ -216,6 +216,14 @@
     <Compile Include="Migrations\201610271715520_Timestamp.Designer.cs">
       <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610271813204_seedmethod.cs" />
+    <Compile Include="Migrations\201610271813204_seedmethod.Designer.cs">
+      <DependentUpon>201610271813204_seedmethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610271919264_TryAgainTryAgain.cs" />
+    <Compile Include="Migrations\201610271919264_TryAgainTryAgain.Designer.cs">
+      <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ChatterContext.cs" />
@@ -330,6 +338,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610271715520_Timestamp.resx">
       <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610271813204_seedmethod.resx">
+      <DependentUpon>201610271813204_seedmethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610271919264_TryAgainTryAgain.resx">
+      <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
