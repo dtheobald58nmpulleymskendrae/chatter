@@ -6,7 +6,7 @@
     <title>@ViewBag.Title - Chatter</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
+    <link href="https://fonts.googleapis.com/css?family=Heebo|Nova+Flat|Rock+Salt" rel="stylesheet">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Chatter", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="brandNav" href="~/Home/"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Chatter</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

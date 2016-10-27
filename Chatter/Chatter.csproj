@@ -216,6 +216,7 @@
     <Compile Include="Migrations\201610271715520_Timestamp.Designer.cs">
       <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201610271813204_seedmethod.cs" />
     <Compile Include="Migrations\201610271813204_seedmethod.Designer.cs">
       <DependentUpon>201610271813204_seedmethod.cs</DependentUpon>
@@ -223,6 +224,11 @@
     <Compile Include="Migrations\201610271919264_TryAgainTryAgain.cs" />
     <Compile Include="Migrations\201610271919264_TryAgainTryAgain.Designer.cs">
       <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201610271848296_AddTime.cs" />
+    <Compile Include="Migrations\201610271848296_AddTime.Designer.cs">
+      <DependentUpon>201610271848296_AddTime.cs</DependentUpon>
+>>>>>>> 7968b003070536f24a224d555eb728c363cb03f2
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -339,11 +345,16 @@
     <EmbeddedResource Include="Migrations\201610271715520_Timestamp.resx">
       <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201610271813204_seedmethod.resx">
       <DependentUpon>201610271813204_seedmethod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610271919264_TryAgainTryAgain.resx">
       <DependentUpon>201610271919264_TryAgainTryAgain.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\201610271848296_AddTime.resx">
+      <DependentUpon>201610271848296_AddTime.cs</DependentUpon>
+>>>>>>> 7968b003070536f24a224d555eb728c363cb03f2
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

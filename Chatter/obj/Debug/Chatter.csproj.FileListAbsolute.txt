@@ -98,5 +98,9 @@ c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\D
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.csproj.GenerateResource.Cache
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.UserName.resources
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.Timestamp.resources
+<<<<<<< HEAD
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.seedmethod.resources
 C:\Users\WeCanCodeIT\documents\visual studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.TryAgainTryAgain.resources
+=======
+C:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\chatter\Chatter\obj\Debug\Chatter.Migrations.AddTime.resources
+>>>>>>> 7968b003070536f24a224d555eb728c363cb03f2

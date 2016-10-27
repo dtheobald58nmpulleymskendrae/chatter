@@ -1,13 +1,50 @@
-﻿.form-control.text-box.single-line {
+﻿.brandNav{
+    color:white;
+    font-size:23px;
+    font-family: 'Rock Salt', cursive;
+    padding-right:15px;
+    padding-left:15px;
+}
+.brandNav:hover{
+    background-color: #004080;
+    text-decoration:none;
+    color:white;
+}
+.navbar-header{
+    padding-top: 6px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-family: 'Nova Flat', cursive;
+    font-size:16px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    background-color:#004080;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse {
+    background-color: #0059b3;
+    border-color: white;
+}
+.form-control.text-box.single-line {
     width:1000px;
 }
 .text-box{
     max-width:90%;
 }
-
+.jumbotron{
+    background-color: white;
+}
+.jumbotron h1{
+    font-family: 'Rock Salt', cursive;
+}
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Heebo', sans-serif;
+    background-color: #e6f2ff;
 }
 
 /* Set padding to keep content from hitting the edges */

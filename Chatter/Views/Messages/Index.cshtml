@@ -14,9 +14,6 @@
         <th>
             @Html.DisplayNameFor(model => model.Messages)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Timestamp)
-        </th>
         <th></th>
     </tr>
 
@@ -24,9 +21,6 @@
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Messages)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Timestamp)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

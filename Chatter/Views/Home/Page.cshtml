@@ -1,10 +1,10 @@
-﻿
+﻿@model Chatter.Models.Message
 @{
     ViewBag.Title = "Home";
 }
 
 <h3>@Html.DisplayName(User.Identity.Name)</h3>
-@model Chatter.Models.Message
+
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
