@@ -11,6 +11,7 @@ namespace Chatter.Models
     {
         public int ID { get; set; }
         public string Messages { get; set; }
+        public ICollection<Message> Entry { get; set; }
         public DateTime Timestamp  { get; set; }
 }
 }

@@ -12,10 +12,12 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
+            @Html.DisplayNameFor(model => model.Username)
             @Html.DisplayNameFor(model => model.Message.Messages)
         </dt>
 
         <dd>
+            @Html.DisplayFor(model => model.Username)
             @Html.DisplayFor(model => model.Message.Messages)
         </dd>
 

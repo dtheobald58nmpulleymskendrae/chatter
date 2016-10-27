@@ -16,8 +16,8 @@ namespace Chatter.Models
         public ICollection<User> Followers { get; set; }
 
         [ForeignKey("Message")]
-        public int MessageID  { get; set; }
-        public virtual Message Message { get; set;}
+        public int MessageID { get; set; }
+        public virtual Message Message { get; set; }
     }
 
 }
