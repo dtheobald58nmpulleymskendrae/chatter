@@ -1,4 +1,11 @@
-﻿body {
+﻿.form-control.text-box.single-line {
+    width:1000px;
+}
+.text-box{
+    max-width:90%;
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }

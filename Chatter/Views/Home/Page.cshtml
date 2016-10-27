@@ -1,9 +1,30 @@
 ﻿
 @{
-    ViewBag.Title = "Page";
+    ViewBag.Title = "Home";
 }
 
-<h2>Page</h2>
+<h3>@Html.DisplayName(User.Identity.Name)</h3>
+@model Chatter.Models.Message
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
 
-<p>SOME TEXT HERE</p>
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <h4>What's Up?</h4>
+        <div class="form-group">
+            <div class="textBox">
+                @Html.EditorFor(model => model.Messages, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Messages, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
+        <div class="form-group">
+            <div class="pull-left">
+                <input type="submit" value="Post" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<h3>Who You're Following</h3>
