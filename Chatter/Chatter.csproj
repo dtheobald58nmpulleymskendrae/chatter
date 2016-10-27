@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201610271453293_UserName.Designer.cs">
       <DependentUpon>201610271453293_UserName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610271715520_Timestamp.cs" />
+    <Compile Include="Migrations\201610271715520_Timestamp.Designer.cs">
+      <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ChatterContext.cs" />
@@ -323,6 +327,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201610271453293_UserName.resx">
       <DependentUpon>201610271453293_UserName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610271715520_Timestamp.resx">
+      <DependentUpon>201610271715520_Timestamp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

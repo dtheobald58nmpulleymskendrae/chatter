@@ -97,3 +97,4 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\Chatter\Chatter\bin\r
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.InitialCreate.resources
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.csproj.GenerateResource.Cache
 c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.UserName.resources
+c:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Chatter\Chatter\obj\Debug\Chatter.Migrations.Timestamp.resources
