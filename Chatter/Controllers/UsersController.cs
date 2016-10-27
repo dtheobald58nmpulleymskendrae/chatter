@@ -17,7 +17,7 @@ namespace Chatter.Controllers
         // GET: Users
         public ActionResult Index()
         {
-            var users = db.Users.Include(u => u.Message,u.Username);
+            var users = db.Users.Include(u => u.Message);
             return View(users.ToList());
         }
 

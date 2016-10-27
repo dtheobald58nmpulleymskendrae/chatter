@@ -26,5 +26,11 @@ namespace Chatter.Controllers
 
             return View();
         }
+
+        [Authorize]
+        public ActionResult Page()
+        {
+            return View();
+        }
     }
 }
